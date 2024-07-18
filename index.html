@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body bgcolor="pink">
+    <div class="container">
+        <h1>Fitness Tracker</h1>
+        
+        <section>
+            <h2>Track Workouts</h2>
+            <input type="text" id="workoutName" placeholder="Workout Name">
+            <input type="number" id="workoutDuration" placeholder="Duration (minutes)">
+            <button id="addWorkoutBtn">Add Workout</button>
+            <div id="workoutsContainer"></div>
+        </section>
+        
+        <section>
+            <h2>Track Runs</h2>
+            <input type="text" id="runDate" placeholder="Date (YYYY-MM-DD)">
+            <input type="number" id="runDistance" placeholder="Distance (km)">
+            <button id="addRunBtn">Add Run</button>
+            <div id="runsContainer"></div>
+        </section>
+        
+        <section>
+            <h2>Track Calorie Intake</h2>
+            <input type="text" id="foodItem" placeholder="Food Item">
+            <input type="number" id="calories" placeholder="Calories">
+            <button id="addCalorieBtn">Add Calorie Intake</button>
+            <div id="caloriesContainer"></div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
